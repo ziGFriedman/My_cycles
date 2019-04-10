@@ -26,4 +26,5 @@ def hoar_sort(A):
 def check_sorted(A, ascending = True):
 '''Проверка отсортированности за O(len(A))'''
     flag = True
-    
+    for i in range(0, N-1):
+        if A
