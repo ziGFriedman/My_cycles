@@ -9,8 +9,8 @@ def merge(A:list, B:list):
             n += 1
         else:
             C[n] = B[k]
-            k +=1
-            n +=1
+            k += 1
+            n += 1
 
     while i < len(A):
         C[n] = A[i]
