@@ -7,3 +7,18 @@ def fibonachchi(n):
     return fib[n]
 
 print(fibonachchi(10))
+
+def fib():
+    '''генератор'''
+    a, b = 0, 1
+    while True:
+        yield a     # выводит a (подобие return)
+        a, b = b, a + b
+
+x = fib()
+print(next(x))
+print(next(x))
+print(next(x))
+print(next(x))
+print(next(x))
+print(next(x))
