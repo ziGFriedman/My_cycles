@@ -29,3 +29,7 @@ def fact(n):
     return fact
 
 print(fact(4))
+
+'''Нахождение с помощью модюля math'''
+import math
+print(math.factorial(4))
