@@ -11,4 +11,4 @@ def left_borrd(A, key):
     if key in A:
         return (left + 1)
 
-print(left_borrd([6, 9, 13, 16, 22], 22))
+print(left_borrd((6, 9, 13, 16, 22), 16))
