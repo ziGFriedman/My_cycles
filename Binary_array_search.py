@@ -8,5 +8,7 @@ def left_borrd(A, key):
             left = middle
         else:
             right = middle
-    return left
-    
+    if key in A:
+        return (left + 1)
+
+print(left_borrd([6, 9, 13, 16, 22], 22))
