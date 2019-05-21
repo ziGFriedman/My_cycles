@@ -25,3 +25,8 @@ def my_zip(l1, l2):
     l_len = len(l1)
     for i in range(l_len):
         yield (l1[i], l2[i])
+
+rangemy = range_my(0, 10, 1)
+print(list(rangemy))
+
+print(list(range_my(0, 10, 1)))
