@@ -10,14 +10,13 @@ print(fibonacci(10))
 
 
 '''Выводит ряд Фибоначчи'''
-def fib():
+def fibon():
     '''генератор'''
     a, b = 0, 1
     while True:
-        yield a     # выводит a (подобие return, но не заканчивает функцию)
+        yield a    # выводит a (подобие return, но не заканчивает функцию)
         a, b = b, a + b
 
-x = fib()   # объявление генератора
-y = 11
-for i in range(0, y):
-    print(next(x), end = ' ')
+fib = fibon()    # объявление генератора
+for i in range(0, 11):
+    print(next(fib), end = ' ')
