@@ -29,4 +29,11 @@ def my_zip(l1, l2):
 rangemy = range_my(0, 10, 1)
 print(list(rangemy))
 
+rangemy = range_my(0, 10, 1)
+try:
+    for i in rangemy:    # Неявное next
+        print(i)
+except StopIteration as e:
+    print(e)
+
 print(list(range_my(0, 10, 1)))
