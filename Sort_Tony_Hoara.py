@@ -24,7 +24,7 @@ def hoar_sort(A):
         k += 1
 
 '''Проверка отсортированности за O(len(A))'''
-def check_sorted(A, ascending = True):
+def check_sorted(A, ascending=True):
     flag = True
     s = 2 * int(ascending) - 1
     for i in range(0, N - 1):
