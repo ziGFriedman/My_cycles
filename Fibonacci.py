@@ -19,4 +19,4 @@ def fibon():
 
 fib = fibon()    # объявление генератора
 for i in range(0, 11):
-    print(next(fib), end = ' ')
+    print(next(fib), end=' ')
