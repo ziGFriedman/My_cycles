@@ -35,4 +35,4 @@ def is_empty():
 
 if __name__ == '__main__':
     import doctest
-    doctest.testmod()
+    doctest.testmod()    # testmod(verbose=True) - показывает тест
