@@ -17,6 +17,8 @@
 # True
 '''
 
+# Checking_the_correctness_bracket_sequence.py
+
 _stack = []
 
 def push(x):
