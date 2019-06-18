@@ -11,19 +11,22 @@
 import A_stack
 
 def is_braces_sequence_correct():
-     '''
-     Проверяет корректность скобочной послед-ти из круглых и квадратных скобок
+    '''
+    Проверяет корректность скобочной послед-ти из круглых и квадратных скобок
 
-     >>> is_braces_sequence_correct("(([()]))[]")
-     True
-     >>> is_braces_sequence_correct("([()]))")
-     False
-     >>> is_braces_sequence_correct("(([])[]")
-     False
-     >>> is_braces_sequence_correct("](([()]))[]")
-     False
-     '''
-     return True
+    >>> is_braces_sequence_correct("(([()]))[]")
+    True
+    >>> is_braces_sequence_correct("([()]))")
+    False
+    >>> is_braces_sequence_correct("(([])[]")
+    False
+    >>> is_braces_sequence_correct("](([()]))[]")
+    False
+    '''
+    for brace in s:
+        if brace not in "()[]":
+            continue
+        if brace in "(["
 
 
 
