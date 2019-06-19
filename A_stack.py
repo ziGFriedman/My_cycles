@@ -17,6 +17,8 @@
 # True
 '''
 
+# Проверка написанных тестов, заключенных в тройныце скобки с операндом >>>
+
 # Checking_the_correctness_bracket_sequence.py
 
 _stack = []
