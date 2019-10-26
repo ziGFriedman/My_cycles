@@ -20,3 +20,13 @@ def fibon():
 fib = fibon()    # объявление генератора
 for i in range(0, 10):
     print(next(fib), end=' ')
+
+'''Рекурсия'''
+def f(n):
+    if n == 1:
+        return 0
+    elif n in (2, 3):
+        return 1
+    return f(n-1) + f(n-2)
+
+print('\n', f(7))
