@@ -21,6 +21,7 @@ fib = fibon()    # объявление генератора
 for i in range(0, 10):
     print(next(fib), end=' ')
 
+
 '''Рекурсия'''
 def f(n):
     if n == 1:
