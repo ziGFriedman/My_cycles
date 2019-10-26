@@ -29,4 +29,4 @@ def f(n):
         return 1
     return f(n-1) + f(n-2)
 
-print('\n', f(7))
+print('\n', f(10))
